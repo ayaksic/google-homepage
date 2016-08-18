@@ -1,0 +1,131 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	}
+	
+.center {
+	width: 70%;
+	margin: auto;
+	clear: both;
+	}
+	
+ul {
+	list-style-type: none;
+	}
+	
+nav {
+	display: block;
+	height: 4em;
+	width: 30em;
+	margin: 20px 40px;
+	padding: 0;
+	float: right;
+	font-size: 0.75em;
+	}
+	
+nav ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+	display: block;
+	height: 3em;
+	line-height: 2em;
+	}
+	
+nav ul li {
+	display: inline;
+	float: left;
+	padding: 0 10px;
+	}
+	
+nav ul li img {
+	display: block;
+	vertical-align: middle;
+	}
+	
+li.circle {
+	display: block;
+	height: 2.5em;
+	width: 1em;
+	background-color: green;
+	border-radius: 50%;
+	position: relative;
+	top: -2px;
+	left: 4px;
+	}
+	
+li.circle a {
+	position: relative;
+	top: 2.2px;
+	color: white;
+	font-size: 1.5em;
+	}
+	
+div img {
+	display: block;
+	padding: 80px 0 20px 0;
+	margin: 0 auto;
+}
+
+#bell {
+	position: relative;
+	top: 2px;
+	left: -3px;
+	}
+	
+#grid {
+	position: relative;
+	top: -2px;
+	}
+
+form input {
+	width: 100%;
+	min-width: 150px;
+	}
+
+.button {
+	width: 10em;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 2px;
+	}
+	
+.centerbuttons {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+footer ul {
+	padding: 0;
+	}
+	
+footer ul li {
+	padding: 0 10px;
+	display: inline;
+	}
+	
+#logo {
+	height: 92px;
+	width: 272px;
+	}
+	
+.right {
+	float: right;
+	}
+	
+a {
+	text-decoration: none;
+	}
+	
+footer {
+	font-size: 0.75em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 3.2em;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	padding: 0;
+	}
